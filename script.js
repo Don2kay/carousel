@@ -14,7 +14,7 @@ let images = document.getElementsByTagName("img"),
     imgCon = document.querySelector("#imgs"),
     starter = 0;
 
-
+// Function for looping through images
 function display(){
   for(let i = 0; i < images.length; i++){
     images[i].style.display= "none";
@@ -22,6 +22,7 @@ function display(){
   images[starter].style.display= "block";
 };
 
+// Function for the next button
 function rightSlider(){
   if (starter == images.length - 1) {
     starter = 0;
@@ -31,6 +32,7 @@ function rightSlider(){
   display();
 };
 
+// Function for the prev button
 function leftSlider(){
   if (starter == 0) {
     starter = images.length - 1;
