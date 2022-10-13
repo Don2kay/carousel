@@ -26,15 +26,6 @@ img {
   overflow: hidden;
 }
 
-.image-slider-right{
-  transform: translateX(100%);
-  transition: transform 0.5s ease-in-out;
-}
-.image-slider-left{
-  transform: translateX(-100%);
-  transition: transform 0.5s ease-in-out;
-}
-
 .image-container {
   display: flex;
   transform: translateX(0);
